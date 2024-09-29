@@ -1,5 +1,6 @@
 import { cn } from "../../lib/utils";
 
+
 export const BentoGrid = ({
   className,
   children,
@@ -38,6 +39,10 @@ export const BentoGridItem = ({
   titleClassName?: string,
   spareImg?: string,
 }) => {
+  function rgb(_arg0: number, arg1: number, arg2: number): import("csstype").Property.Background<string | number> | undefined {
+    throw new Error("Function not implemented.")
+  }
+
   return (
     <div
       className={cn(
@@ -46,13 +51,27 @@ export const BentoGridItem = ({
       )}
       style={{
         background: 'rgb(4,7,29)',
-        backgroundColor: 'gradient...'
+        backgroundColor: 'linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 26%, rgba(93,108,111,1) 100%)'
       }}
     >
-     
-      <div className="group-hover/bento:translate-x-2 transition duration-200"> 
+      <div className={`${id === 6} && 'flex justify-center h-full`}>
+        <div className="w-full h-full absolute">
+          {img && (
+            <img
+              src={img}
+              alt={img}
+              className={cn(imgClassName, 'object-cover, object-center')}
+            />
+          )}
+        </div>
+
+      </div>
+
+
+
+      <div className="group-hover/bento:translate-x-2 transition duration-200">
         <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
-          {title}
+          Title - {title}
         </div>
         <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
           {description}
