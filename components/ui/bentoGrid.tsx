@@ -1,6 +1,7 @@
 import { cn } from "../../lib/utils";
 import { BackgroundGradientAnimation } from "./gradientBg";
-import { Globe } from "./gridGlobe";
+import { GlobeDemo } from "../ui/gridGlobe";
+
 
 export const BentoGrid = ({
   className,
@@ -40,14 +41,6 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  function rgb(
-    _arg0: number,
-    arg1: number,
-    arg2: number
-  ): import("csstype").Property.Background<string | number> | undefined {
-    throw new Error("Function not implemented.");
-  }
-
   return (
     <div
       className={cn(
@@ -60,7 +53,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 26%, rgba(93,108,111,1) 100%)",
       }}
     >
-      <div className={`${id === 6 ? 'flex justify-center h-full' : ''}`}>
+      <div className={`${id === 6 ? "flex justify-center h-full" : ""}`}>
         <div className="w-full h-full absolute">
           {img && (
             <img
@@ -93,38 +86,17 @@ export const BentoGridItem = ({
           className={cn(
             titleClassName,
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
-          )}>
+          )}
+        >
           <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg text-neutral-200 dark:text-neutral-200 lg:text-3xl max-w-96 z-10 ">
+          <div className="font-sans font-bold text-lg text-neutral-200 dark:text-neutral-200 lg:text-xl max-w-96 z-10 ">
             {title}
           </div>
         </div>
 
-{id===2 && <Globe globeConfig={{
-          pointSize: undefined,
-          globeColor: undefined,
-          showAtmosphere: undefined,
-          atmosphereColor: undefined,
-          atmosphereAltitude: undefined,
-          emissive: undefined,
-          emissiveIntensity: undefined,
-          shininess: undefined,
-          polygonColor: undefined,
-          ambientLight: undefined,
-          directionalLeftLight: undefined,
-          directionalTopLight: undefined,
-          pointLight: undefined,
-          arcTime: undefined,
-          arcLength: undefined,
-          rings: undefined,
-          maxRings: undefined,
-          initialPosition: undefined,
-          autoRotate: undefined,
-          autoRotateSpeed: undefined
-        }} data={[]}/>}
-
+        {id === 2 && <GlobeDemo />}
       </div>
     </div>
   );
