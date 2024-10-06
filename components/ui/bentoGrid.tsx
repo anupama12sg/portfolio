@@ -1,3 +1,5 @@
+"use client"
+
 import { cn } from "../../lib/utils";
 import { BackgroundGradientAnimation } from "./gradientBg";
 import { GlobeDemo } from "../ui/gridGlobe";
@@ -133,7 +135,10 @@ export const BentoGridItem = ({
                 <Lottie options={{
                   loop: copied,
                   autoplay: copied,
-                  animationData: animationData
+                  animationData,
+                  rendererSettings: {
+                    preserveAsprectRatio: 'xMidYMid slice',
+                  }
                 }}/>
               </div>
             </div>
