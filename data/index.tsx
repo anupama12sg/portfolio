@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Weather App",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Weather app provides real-time weather updates, including temperature and humidity for different locations using React.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://weather-one-sand.vercel.app/",
@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "Calculator App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "A user-friendly calculator app for performing basic arithmetic operations with a simple and intuitive interface using React.js.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://calci-chi-three.vercel.app/",
@@ -89,7 +89,7 @@ export const projects = [
   {
     id: 3,
     title: "My Landing Page",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "My personal landing page with a sleek design, featuring light/dark mode, animated text, and a navbar for easy navigation through milestones and projects built using React.js.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://anu-blush.vercel.app/",
@@ -97,7 +97,7 @@ export const projects = [
   {
     id: 4,
     title: "To Do List",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Simple and efficient to-do list app for organizing tasks, setting priorities and tracking progress using React.js.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://to-do-umber-phi.vercel.app/",
