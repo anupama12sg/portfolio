@@ -75,7 +75,7 @@ export const projects = [
     title: "Weather App",
     des: "Weather app provides real-time weather updates, including temperature and humidity for different locations using React.js.",
     img: "/weatherr.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://weather-one-sand.vercel.app/",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "Calculator App",
     des: "A user-friendly calculator app for performing basic arithmetic operations with a simple and intuitive interface using React.js.",
     img: "/calci.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://calci-chi-three.vercel.app/",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "My Landing Page",
     des: "My personal landing page with a sleek design, featuring light/dark mode, animated text, and a navbar for easy navigation through milestones and projects built using React.js.",
     img: "/landing pg.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://anu-blush.vercel.app/",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "To Do List",
     des: "Simple and efficient to-do list app for organizing tasks, setting priorities and tracking progress using React.js.",
     img: "/todo.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://to-do-umber-phi.vercel.app/",
   },
 ];
