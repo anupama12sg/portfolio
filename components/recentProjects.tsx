@@ -2,6 +2,7 @@ import React from 'react'
 import { projects } from '../data'
 import { title } from 'process'
 import { desc, img } from 'framer-motion/client'
+import { PinContainer } from './ui/3d-pin'
 
 const RecentProjects = () => {
     return (
@@ -12,9 +13,11 @@ const RecentProjects = () => {
             </h1>
             <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
                 {projects.map(({ id, title, des, img, iconLists,
-                    link}) =>
+                    link }) =>
                     <div key={id} className='lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]'>
-                        {title}
+                        <PinContainer>
+                            {title}
+                        </PinContainer>
                     </div>
                 )}
             </div>
