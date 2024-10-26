@@ -99,7 +99,7 @@ export const projects = [
     title: "To Do List",
     des: "Simple and efficient to-do list app for organizing tasks, setting priorities and tracking progress using React.js.",
     img: "/todo.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://to-do-umber-phi.vercel.app/",
   },
 ];
