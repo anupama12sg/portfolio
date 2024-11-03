@@ -1,6 +1,6 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/infiniteMovingCards'
-import { testimonials } from '../data'
+import { companies, testimonials } from '../data'
 
 const Clients = () => {
     return (
@@ -9,13 +9,19 @@ const Clients = () => {
                 Kind words from {' '}
                 <span className="text-purple">kind people</span>
             </h1>
-            <div className="flex flex-col items-center justify-center">
-                <div className="h-[70vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden">
-                    <InfiniteMovingCards
-                        items={testimonials}
-                        direction="right"
-                        speed="slow"
-                    />
+            <div className="flex flex-col items-center justify-center max-lg:mt-10">
+                <InfiniteMovingCards
+                    items={testimonials}
+                    direction="right"
+                    speed="slow"
+                />
+
+                <div>
+                    {companies.map(({ id, img, name, nameImg }) => (
+                        <div key={id} className='flex md:max-w-60 max-w-32 gap-2'>
+                            <img src={img} alt={name} className='md:w-10 w-5' />
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
