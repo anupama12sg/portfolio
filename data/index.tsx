@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Anupama was an absolute pleasure. Her professionalism, promptness and dedication to delivering exceptional results were evident throughout our project. Anupama's enthusiasm for every facet of development truly stands out.",
+    name: "Aditya Singh",
+    title: "Blockchain Full- Stack Engineer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Anupama was an outstanding experience. Her attention to detail and commitment to excellence greatly enhanced the quality of our project. Anupama's proactive communication and positive attitude made collaboration seamless and enjoyable.",
+    name: "Prof. Minu Singh",
+    title: "Professor, University of Mumbai",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "It was a delight to collaborate with Anupama. Her creativity and problem-solving skills were instrumental in overcoming challenges during our project. Anupama's passion for her work is contagious, inspiring everyone around her to strive for greatness.",
+    name: "Komal Lalwani",
+    title: "Software Engineer, Bank of America",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had a fantastic experience working alongside Anupama. Her ability to stay organized and focused under pressure ensured that we met our deadlines without compromising quality. Anupama's collaborative spirit and willingness to share knowledge enriched our teamwork.",
+    name: "Indu Mehta",
+    title: "Senior Software Engineer, Apple ",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Anupama was truly rewarding. Her strong work ethic and enthusiasm for development were evident in every task she undertook. Anupama's ability to bring innovative ideas to the table consistently pushed our project to new heights.",
+    name: "Aditi Bhattacharya",
+    title: "Machine Learning Engineer, Snap Inc.",
   },
 ];
 
