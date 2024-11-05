@@ -109,7 +109,7 @@ export const testimonials = [
     quote:
       "Collaborating with Anupama was an absolute pleasure. Her professionalism, promptness and dedication to delivering exceptional results were evident throughout our project. Anupama's enthusiasm for every facet of development truly stands out.",
     name: "Aditya Singh",
-    title: "Blockchain Full- Stack Engineer",
+    title: "Blockchain Full-Stack Engineer",
   },
   {
     quote:
@@ -120,7 +120,7 @@ export const testimonials = [
   {
     quote:
       "It was a delight to collaborate with Anupama. Her creativity and problem-solving skills were instrumental in overcoming challenges during our project. Anupama's passion for her work is contagious, inspiring everyone around her to strive for greatness.",
-    name: "Komal Lalwani",
+    name: "Karishma Lalwani",
     title: "Software Engineer, Bank of America",
   },
   {
