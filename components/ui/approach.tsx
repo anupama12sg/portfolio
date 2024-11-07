@@ -8,4 +8,4 @@ const Approach = () => {
     );
 }
 
-export default Approach;s
+export default Approach;
