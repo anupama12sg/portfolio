@@ -8,7 +8,7 @@ import RecentProjects from "../../components/recentProjects";
 import { navItems } from "../../data";
 import Clients from "../../components/clients";
 import Experience from "../../components/ui/myExperience";
-import Approach from "../../components/ui/approach";
+import Approach from "../../components/ui/myApproach";
 
 export default function Home() {
   return (
