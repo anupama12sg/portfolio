@@ -13,15 +13,19 @@ const Approach = () => {
             <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4 ">
                 <Card
                     title="Planning & Strategy"
-                    icon={<AceternityIcon order="Phase 1" />}>
+                    icon={<AceternityIcon order="Phase 1" />}
+                    description="Collaborating to define your website's goals, target audience & essential features while planning its structure, navigation & content needs."
+                    >
                     <CanvasRevealEffect
                         animationSpeed={5.1}
                         containerClassName="bg-emerald-900"
                     />
                 </Card>
                 <Card
-                    title=" "
-                    icon={<AceternityIcon />}>
+                    title="Development & Progress Update"
+                    icon={<AceternityIcon order='Phase 2' />}
+                    description="Once the plan is set, I start coding—updating you at every stage, from initial sketches to final polished code."
+                    >
                     <CanvasRevealEffect
                         animationSpeed={3}
                         containerClassName="bg-black"
@@ -34,8 +38,10 @@ const Approach = () => {
                     <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
                 </Card>
                 <Card
-                    title="Munni is Aditi"
-                    icon={<AceternityIcon />}>
+                    title="Development & Launch"
+                    icon={<AceternityIcon order='Phase 3'/>}
+                    description="Here’s where the magic unfolds! With the approved design in hand, I bring it to life—coding every detail from the ground up to build your website."
+                    >
                     <CanvasRevealEffect
                         animationSpeed={3}
                         containerClassName="bg-sky-600"
@@ -51,10 +57,12 @@ const Card = ({
     title,
     icon,
     children,
+    description
 }: {
     title: string;
     icon: React.ReactNode;
     children?: React.ReactNode;
+    description: string;
 }) => {
     const [hovered, setHovered] = useState(false);
     return (
@@ -86,6 +94,9 @@ const Card = ({
                 </div>
                 <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
                     {title}
+                </h2>
+                <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+                    {description}
                 </h2>
             </div>
         </div>
