@@ -10,12 +10,12 @@ const Footer = () => {
                     className='w-full h-full opacity-50'
                 />
             </div>
-            
-            <div className='flex flex-col items-center'>
-                <h1>
-                    Ready to take <span>your</span> digital presence to the next level?
-                </h1>
 
+            <div className='flex flex-col items-center'>
+                <h1 className='heading lg:max-w-[45vw]'>
+                    Ready to take <span className='text-purple'>your</span> digital presence to the next level?
+                </h1>
+                <p>Reach out to me today and let&apos;s discuss how I can help you achieve your goals.</p>
             </div>
         </footer>
     )
