@@ -15,7 +15,8 @@ const Footer = () => {
                 <h1 className='heading lg:max-w-[45vw]'>
                     Ready to take <span className='text-purple'>your</span> digital presence to the next level?
                 </h1>
-                <p>Reach out to me today and let&apos;s discuss how I can help you achieve your goals.</p>
+                <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and let&apos;s discuss how I can help you achieve your goals.</p>
+            <a href="mail to: anupama12sg@gmail.com"></a>
             </div>
         </footer>
     )
