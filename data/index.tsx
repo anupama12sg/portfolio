@@ -181,7 +181,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Assistant Professor, University of Mumbai",
-    desc: "Taught DBMS, C++, Cloud Computing, Software Project Dev & Software QA. Mentored 100+ final-year students in their projects.",
+    desc: "Taught Blockchain & DLT, Data Structures, DBMS, Software Project Dev. Mentored 100+ final-year students in their projects.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
